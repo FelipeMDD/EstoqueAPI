@@ -7,7 +7,7 @@ namespace EstoqueApi.Features
     {
         public string PartNumber { get; set; }
 
-        public ExcluirProdutoCommand(string nome, string partNumber, double precoMedioCusto)
+        public ExcluirProdutoCommand(string partNumber)
         {
             PartNumber = partNumber;
         }

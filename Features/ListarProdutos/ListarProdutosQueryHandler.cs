@@ -4,11 +4,7 @@ using MediatR;
 
 namespace EstoqueApi.Features
 {
-    // Define a query que será enviada ao handler
-    public partial class ListarProdutos : IRequest<IEnumerable<Produto>> { }
-
-    // Define o handler para a query
-    public class ListarProdutosQueryHandler : IRequestHandler<ListarProdutos, IEnumerable<Produto>>
+    public class ListarProdutosQueryHandler : IRequestHandler<ListarProdutosQuery, IEnumerable<Produto>>
     {
         private readonly ProdutoRepository _produtoRepository;
 
@@ -17,8 +13,7 @@ namespace EstoqueApi.Features
             _produtoRepository = produtoRepository;
         }
 
-        // Método que lida com a query
-        public async Task<IEnumerable<Produto>> Handle(ListarProdutos request, CancellationToken cancellationToken)
+        public async Task<IEnumerable<Produto>> Handle(ListarProdutosQuery request, CancellationToken cancellationToken)
         {
             return await _produtoRepository.ListarProdutos();
         }

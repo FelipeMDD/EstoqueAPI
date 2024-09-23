@@ -13,7 +13,6 @@ namespace EstoqueApi.Repositories
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
-
         public IEnumerable<LogErro> ListarLogErro()
         {
             using (var connection = new MySqlConnection(_connectionString))
@@ -23,15 +22,13 @@ namespace EstoqueApi.Repositories
                 return connection.Query<LogErro>(query);
             }
         }
-        public async Task<bool> InsereLogErroAsync(LogErro logErro)
+        public async Task InsereLogErroAsync(LogErro logErro)
         {
             using (var connection = new MySqlConnection(_connectionString))
             {
                 connection.Open();
                 var query = @"INSERT INTO LogErro (Texto, Endpoint) VALUES (@Texto, @Endpoint);";
                 var result = await connection.ExecuteScalarAsync<int>(query, logErro);
-
-                return result > 0;
             }
         }
     }

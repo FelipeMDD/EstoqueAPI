@@ -17,11 +17,13 @@ builder.Services.AddScoped<ProdutoRepository>();
 builder.Services.AddScoped<EstoqueRepository>();
 builder.Services.AddScoped<MovimentacaoEstoqueRepository>();
 builder.Services.AddScoped<LogErroRepository>();
-builder.Services.AddScoped<PrecoHistoricoRepository>();
 
 builder.Services.AddScoped<ListarProdutosQueryHandler>();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<ListarProdutosQueryHandler>());
+
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(LogErrorMiddleware<,>));
+
 
 var app = builder.Build();
 

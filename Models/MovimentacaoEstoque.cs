@@ -9,6 +9,6 @@ namespace EstoqueApi.Models
         public DateTime DataMovimentacao { get; set; }
         public int QuantidadeMovimentada { get; set; }
         public TipoMovimentacao TipoMovimentacao { get; set; } 
-        public decimal? CustoMovimentacao { get; set; }
+        public double? CustoMovimentacao { get; set; }
     }
 }

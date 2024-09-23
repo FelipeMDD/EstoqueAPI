@@ -5,6 +5,6 @@ namespace EstoqueApi.Interfaces
     public interface ILogErroRepository
     {
         IEnumerable<LogErro> ListarLogErro();
-        Task<bool> InsereLogErroAsync(LogErro logErro);
+        Task InsereLogErroAsync(LogErro logErro);
     }
 }

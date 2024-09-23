@@ -4,6 +4,6 @@
     {
         public int LogID { get; set; }
         public string Texto { get; set; } = String.Empty;
-        public string EndPoint { get; set; } = String.Empty ;
+        public string? EndPoint { get; set; } = String.Empty ;
     }
 }
