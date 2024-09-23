@@ -7,9 +7,9 @@ namespace EstoqueApi.Features
 {
     public class ListarProdutosQueryHandler : IRequestHandler<ListarProdutosQuery, IEnumerable<Produto>>
     {
-        private readonly ProdutoRepository _produtoRepository;
+        private readonly IProdutoRepository _produtoRepository;
 
-        public ListarProdutosQueryHandler(ProdutoRepository produtoRepository)
+        public ListarProdutosQueryHandler(IProdutoRepository produtoRepository)
         {
             _produtoRepository = produtoRepository;
         }

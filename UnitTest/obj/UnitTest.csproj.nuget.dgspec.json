@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\UnitTest\\UnitTest.csproj": {}
+    "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\EstoqueApi\\EstoqueApi.csproj": {
+    "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\EstoqueApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\EstoqueApi\\EstoqueApi.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\EstoqueApi.csproj",
         "projectName": "EstoqueApi",
-        "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\EstoqueApi\\EstoqueApi.csproj",
+        "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\EstoqueApi.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\EstoqueApi\\obj\\",
+        "outputPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\UnitTest\\UnitTest.csproj": {
+    "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\UnitTest\\UnitTest.csproj",
+        "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\UnitTest.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -115,8 +115,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\EstoqueApi\\EstoqueApi.csproj": {
-                "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\EstoqueApi\\EstoqueApi.csproj"
+              "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\EstoqueApi.csproj": {
+                "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\EstoqueApi.csproj"
               }
             }
           }

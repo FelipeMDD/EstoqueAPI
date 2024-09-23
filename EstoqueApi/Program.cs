@@ -18,6 +18,7 @@ builder.Services.AddScoped<ProdutoRepository>();
 builder.Services.AddScoped<EstoqueRepository>();
 builder.Services.AddScoped<MovimentacaoEstoqueRepository>();
 builder.Services.AddScoped<LogErroRepository>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 
 builder.Services.AddScoped<ListarProdutosQueryHandler>();
 

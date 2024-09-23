@@ -3,17 +3,18 @@ using EstoqueApi.Features;
 using Moq;
 using EstoqueApi.Models;
 using Xunit;
+using EstoqueApi.Interfaces;
 
 namespace EstoqueApi.UnitTest
 {
     public class ListarProdutosHandlerTests
     {
-        private readonly Mock<ProdutoRepository> _produtoRepositoryMock;
+        private readonly Mock<IProdutoRepository> _produtoRepositoryMock;
         private readonly ListarProdutosQueryHandler _handler;
 
         public ListarProdutosHandlerTests()
         {
-            _produtoRepositoryMock = new Mock<ProdutoRepository>();
+            _produtoRepositoryMock = new Mock<IProdutoRepository>();
             _handler = new ListarProdutosQueryHandler(_produtoRepositoryMock.Object);
         }
 

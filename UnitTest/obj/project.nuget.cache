@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C52gpvsy0Bs=",
+  "dgSpecHash": "VHEOiVZLxfM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\APIEstoque\\APIEstoque\\EstoqueApi\\UnitTest\\UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
