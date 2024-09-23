@@ -1,4 +1,7 @@
-using EstoqueApi.Infrastructure;
+using EstoqueApi.Features;
+using EstoqueApi.Repositories;
+using Microsoft.Extensions.DependencyInjection;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +12,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
-builder.Services.AddScoped<ProdutoContext>();
+
+builder.Services.AddScoped<ProdutoRepository>();
+builder.Services.AddScoped<EstoqueRepository>();
+builder.Services.AddScoped<MovimentacaoEstoqueRepository>();
+builder.Services.AddScoped<LogErroRepository>();
+builder.Services.AddScoped<PrecoHistoricoRepository>();
+
+builder.Services.AddScoped<ListarProdutosQueryHandler>();
+
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<ListarProdutosQueryHandler>());
 
 var app = builder.Build();
 

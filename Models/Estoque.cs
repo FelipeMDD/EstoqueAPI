@@ -4,6 +4,6 @@
     {
         public int EstoqueID { get; set; }
         public int ProdutoID { get; set; }
-        public int QuantidadeDisponivel { get; set; }
+        public int? QuantidadeDisponivel { get; set; }
     }
 }

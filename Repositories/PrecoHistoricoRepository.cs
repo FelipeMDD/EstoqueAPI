@@ -2,25 +2,26 @@
 using EstoqueApi.Models;
 using MySql.Data.MySqlClient;
 
-namespace EstoqueApi.Infrastructure
+namespace EstoqueApi.Repositories
 {
-    public class ProdutoContext
+    public class PrecoHistoricoRepository
     {
         private readonly string _connectionString;
 
-        public ProdutoContext(IConfiguration configuration)
+        public PrecoHistoricoRepository(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
-        public IEnumerable<Produto> ListarProdutos()
+        public IEnumerable<PrecoHistorico> ListarPrecoHistorico()
         {
             using (var connection = new MySqlConnection(_connectionString))
             {
                 connection.Open();
-                var query = "SELECT * FROM Produto";
-                return connection.Query<Produto>(query);
+                var query = "SELECT * FROM PrecoHistorico";
+                return connection.Query<PrecoHistorico>(query);
             }
         }
     }
 }
+

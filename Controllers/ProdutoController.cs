@@ -1,24 +1,65 @@
-﻿using EstoqueApi.Infrastructure;
+﻿using EstoqueApi.Models;
+using EstoqueApi.Features;
 using Microsoft.AspNetCore.Mvc;
+using MediatR;
 
 namespace EstoqueApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/produto/[controller]")]
     public class ProdutoController : Controller
     {
-        private readonly ProdutoContext _produtoRepository;
+        private readonly IMediator _mediator;
 
-        public ProdutoController(ProdutoContext produtoRepository)
+        public ProdutoController(IMediator mediator)
         {
-            _produtoRepository = produtoRepository;
+            _mediator = mediator;
         }
 
         [HttpGet]
-        public IActionResult GetProdutos()
+        public async Task<IEnumerable<Produto>> ListarProdutos()
         {
-            var produtos = _produtoRepository.ListarProdutos();
-            return Ok(produtos);
+            var query = new ListarProdutos();
+            var produtos = await _mediator.Send(query);
+            return produtos.ToList(); 
+        }
+        
+        [HttpPost]
+        public async Task<IActionResult> AdicionarProduto([FromBody] AdicionarProdutoCommand command)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                var produto = await _mediator.Send(command);
+                return CreatedAtAction(nameof(AdicionarProduto), produto);
+            }
+            catch (Exception ex) 
+            {
+                return StatusCode(500, ex.Message); 
+            }
+        }
+        [HttpDelete]
+        [Route("excluir")]
+        public async Task<IActionResult> ExcluirProduto([FromBody] ExcluirProdutoCommand command)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                var result = await _mediator.Send(command);
+                return CreatedAtAction(nameof(ExcluirProduto), new { message = result });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
     }
 }
