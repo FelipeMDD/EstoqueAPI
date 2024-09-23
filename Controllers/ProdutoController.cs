@@ -19,7 +19,7 @@ namespace EstoqueApi.Controllers
         [HttpGet]
         public async Task<IEnumerable<Produto>> ListarProdutos()
         {
-            var query = new ListarProdutos();
+            var query = new ListarProdutosQuery();
             var produtos = await _mediator.Send(query);
             return produtos.ToList(); 
         }
