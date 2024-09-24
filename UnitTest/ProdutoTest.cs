@@ -21,7 +21,6 @@ namespace EstoqueApi.UnitTest.ProdutoTeste
         [Fact]
         public async Task RetornoOk_Produto()
         {
-            // Arrange
             var produtosMock = new List<Produto>
             {
                 new Produto { ProdutoID = 1, Nome = "Produto 1" },
@@ -31,10 +30,8 @@ namespace EstoqueApi.UnitTest.ProdutoTeste
             _produtoRepositoryMock.Setup(repo => repo.ListarProdutos())
                                   .ReturnsAsync(produtosMock);
 
-            // Act
             var result = await _handler.Handle(new ListarProdutosQuery(), CancellationToken.None);
 
-            // Assert
             Assert.Equal(2, result.Count());
             _produtoRepositoryMock.Verify(repo => repo.ListarProdutos(), Times.Once);
         }
