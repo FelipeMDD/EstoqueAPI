@@ -50,12 +50,12 @@ namespace EstoqueApi.UnitTest.MovimentacaoTeste
             };
 
             _movimentacaoRepositoryMock.Setup(repo => repo.ListarMovimentacaoEstoque(query.Data))
-                                        .Returns(new List<MovimentacaoPecaViewModel>());
+                                        .Returns(movimentacaoList);
 
             var result = await _handler.Handle(query, CancellationToken.None);
 
             Assert.Equal(8, result.TotalPeca); 
-            Assert.Equal(11.0, result.PrecoMedio); 
+            Assert.Equal(2.75, result.PrecoMedio); 
             Assert.Equal(2, result.MovimentacaoPeca.Count);
         }
     }
