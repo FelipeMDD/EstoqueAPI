@@ -1,4 +1,5 @@
-﻿using EstoqueApi.Models;
+﻿using EstoqueApi.Interfaces;
+using EstoqueApi.Models;
 using EstoqueApi.Repositories;
 using MediatR;
 
@@ -6,9 +7,9 @@ namespace EstoqueApi.Features
 {
     public class ExcluirProdutoCommandHandler : IRequestHandler<ExcluirProdutoCommand, string>
     {
-        private readonly ProdutoRepository _produtoRepository;
+        private readonly IProdutoRepository _produtoRepository;
 
-        public ExcluirProdutoCommandHandler(ProdutoRepository produtoRepository)
+        public ExcluirProdutoCommandHandler(IProdutoRepository produtoRepository)
         {
             _produtoRepository = produtoRepository;
         }

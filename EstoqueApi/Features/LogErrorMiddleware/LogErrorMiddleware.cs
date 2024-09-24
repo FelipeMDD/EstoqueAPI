@@ -1,12 +1,13 @@
-﻿using EstoqueApi.Models;
+﻿using EstoqueApi.Interfaces;
+using EstoqueApi.Models;
 using EstoqueApi.Repositories;
 using MediatR;
 
 public class LogErrorMiddleware<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
 {
-    private readonly LogErroRepository _logErroRepository;
+    private readonly ILogErroRepository _logErroRepository;
 
-    public LogErrorMiddleware(LogErroRepository logErroRepository)
+    public LogErrorMiddleware(ILogErroRepository logErroRepository)
     {
         _logErroRepository = logErroRepository;
     }

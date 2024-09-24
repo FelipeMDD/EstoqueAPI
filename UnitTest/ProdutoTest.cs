@@ -1,25 +1,25 @@
-using EstoqueApi.Repositories;
+﻿using EstoqueApi.Repositories;
 using EstoqueApi.Features;
 using Moq;
 using EstoqueApi.Models;
 using Xunit;
 using EstoqueApi.Interfaces;
 
-namespace EstoqueApi.UnitTest
+namespace EstoqueApi.UnitTest.ProdutoTeste
 {
-    public class ListarProdutosHandlerTests
+    public class ProdutosHandlerTests
     {
         private readonly Mock<IProdutoRepository> _produtoRepositoryMock;
         private readonly ListarProdutosQueryHandler _handler;
 
-        public ListarProdutosHandlerTests()
+        public ProdutosHandlerTests()
         {
             _produtoRepositoryMock = new Mock<IProdutoRepository>();
             _handler = new ListarProdutosQueryHandler(_produtoRepositoryMock.Object);
         }
 
         [Fact]
-        public async Task Handle_ShouldReturnProductList_WhenProductsExist()
+        public async Task RetornoOk_Produto()
         {
             // Arrange
             var produtosMock = new List<Produto>

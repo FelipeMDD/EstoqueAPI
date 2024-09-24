@@ -14,10 +14,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
-builder.Services.AddScoped<ProdutoRepository>();
-builder.Services.AddScoped<EstoqueRepository>();
-builder.Services.AddScoped<MovimentacaoEstoqueRepository>();
-builder.Services.AddScoped<LogErroRepository>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped<IEstoqueRepository, EstoqueRepository>();
+builder.Services.AddScoped<IMovimentacaoEstoqueRepository, MovimentacaoEstoqueRepository>();
+builder.Services.AddScoped<ILogErroRepository, LogErroRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 
 builder.Services.AddScoped<ListarProdutosQueryHandler>();

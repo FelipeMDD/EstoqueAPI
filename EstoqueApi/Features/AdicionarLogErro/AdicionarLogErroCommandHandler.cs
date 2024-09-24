@@ -1,12 +1,13 @@
-﻿using EstoqueApi.Models;
+﻿using EstoqueApi.Interfaces;
+using EstoqueApi.Models;
 using EstoqueApi.Repositories;
 
 namespace EstoqueApi.Features.AdicionarLogErro
 {
     public class AdicionarLogErroCommandHandler
     {
-        private readonly LogErroRepository _logErroRepository;
-        public AdicionarLogErroCommandHandler(LogErroRepository logErroRepository)
+        private readonly ILogErroRepository _logErroRepository;
+        public AdicionarLogErroCommandHandler(ILogErroRepository logErroRepository)
         {
             _logErroRepository = logErroRepository;
         }

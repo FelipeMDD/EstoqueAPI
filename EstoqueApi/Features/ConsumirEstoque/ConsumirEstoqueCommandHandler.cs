@@ -1,4 +1,5 @@
-﻿using EstoqueApi.Models;
+﻿using EstoqueApi.Interfaces;
+using EstoqueApi.Models;
 using EstoqueApi.Repositories;
 using MediatR;
 
@@ -6,10 +7,10 @@ namespace EstoqueApi.Features
 {
     public class ConsumirEstoqueCommandHandler : IRequestHandler<ConsumirEstoqueCommand, string>
     {
-        private readonly EstoqueRepository _estoqueRepository;
-        private readonly MovimentacaoEstoqueRepository _movimentacaoEstoqueRepository;
+        private readonly IEstoqueRepository _estoqueRepository;
+        private readonly IMovimentacaoEstoqueRepository _movimentacaoEstoqueRepository;
 
-        public ConsumirEstoqueCommandHandler(EstoqueRepository estoqueRepository, MovimentacaoEstoqueRepository movimentacaoEstoqueRepository)
+        public ConsumirEstoqueCommandHandler(IEstoqueRepository estoqueRepository, IMovimentacaoEstoqueRepository movimentacaoEstoqueRepository)
         {
             _estoqueRepository = estoqueRepository;
             _movimentacaoEstoqueRepository = movimentacaoEstoqueRepository;

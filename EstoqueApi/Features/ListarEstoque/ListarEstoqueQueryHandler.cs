@@ -1,4 +1,5 @@
-﻿using EstoqueApi.Models;
+﻿using EstoqueApi.Interfaces;
+using EstoqueApi.Models;
 using EstoqueApi.Repositories;
 using MediatR;
 
@@ -8,9 +9,9 @@ namespace EstoqueApi.Features
 
     public class ListarEstoqueQueryHandler : IRequestHandler<ListarEstoque, IEnumerable<Estoque>>
     {
-        private readonly EstoqueRepository _estoqueRepository;
+        private readonly IEstoqueRepository _estoqueRepository;
 
-        public ListarEstoqueQueryHandler(EstoqueRepository estoqueRepository)
+        public ListarEstoqueQueryHandler(IEstoqueRepository estoqueRepository)
         {
             _estoqueRepository = estoqueRepository;
         }

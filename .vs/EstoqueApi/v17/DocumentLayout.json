@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\estoqueapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|solutionrelative:estoqueapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9A1164B-7ADA-491C-B6F0-11F5898D8767}|UnitTest\\UnitTest.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\unittest\\produtotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A1164B-7ADA-491C-B6F0-11F5898D8767}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\produtotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9A1164B-7ADA-491C-B6F0-11F5898D8767}|UnitTest\\UnitTest.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9A1164B-7ADA-491C-B6F0-11F5898D8767}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9A1164B-7ADA-491C-B6F0-11F5898D8767}|UnitTest\\UnitTest.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\unittest\\movimentacaotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A1164B-7ADA-491C-B6F0-11F5898D8767}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\movimentacaotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A1164B-7ADA-491C-B6F0-11F5898D8767}|UnitTest\\UnitTest.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\unittest\\estoquetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A1164B-7ADA-491C-B6F0-11F5898D8767}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\estoquetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\estoqueapi\\features\\listarmovimentacao\\listarmovimentacaoqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|solutionrelative:estoqueapi\\features\\listarmovimentacao\\listarmovimentacaoqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\estoqueapi\\features\\listarprodutos\\listarprodutosqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|solutionrelative:estoqueapi\\features\\listarprodutos\\listarprodutosqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\estoqueapi\\features\\listarprodutos\\listarprodutosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|solutionrelative:estoqueapi\\features\\listarprodutos\\listarprodutosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\estoqueapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|solutionrelative:estoqueapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\ProdutoTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UnitTest\\ProdutoTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9A1164B-7ADA-491C-B6F0-11F5898D8767}|UnitTest\\UnitTest.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\unittest\\unittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E9A1164B-7ADA-491C-B6F0-11F5898D8767}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\unittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|c:\\users\\felip\\onedrive\\documentos\\projeto\\estoqueapi\\estoqueapi\\features\\listarprodutos\\listarprodutosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD53CB-C44C-4B56-80F6-EB992524514C}|EstoqueApi\\EstoqueApi.csproj|solutionrelative:estoqueapi\\features\\listarprodutos\\listarprodutosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\Features\\AdicionarLogErro\\AdicionarLogErroCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,24 +46,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EstoqueTest.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\EstoqueTest.cs",
+              "RelativeDocumentMoniker": "UnitTest\\EstoqueTest.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\EstoqueTest.cs",
+              "RelativeToolTip": "UnitTest\\EstoqueTest.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T23:02:45.835Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListarMovimentacaoQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\Features\\ListarMovimentacao\\ListarMovimentacaoQueryHandler.cs",
+              "RelativeDocumentMoniker": "EstoqueApi\\Features\\ListarMovimentacao\\ListarMovimentacaoQueryHandler.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\Features\\ListarMovimentacao\\ListarMovimentacaoQueryHandler.cs",
+              "RelativeToolTip": "EstoqueApi\\Features\\ListarMovimentacao\\ListarMovimentacaoQueryHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T23:59:42.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovimentacaoTest.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\MovimentacaoTest.cs",
+              "RelativeDocumentMoniker": "UnitTest\\MovimentacaoTest.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\MovimentacaoTest.cs",
+              "RelativeToolTip": "UnitTest\\MovimentacaoTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T23:35:09.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ListarProdutosQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\Features\\ListarProdutos\\ListarProdutosQueryHandler.cs",
               "RelativeDocumentMoniker": "EstoqueApi\\Features\\ListarProdutos\\ListarProdutosQueryHandler.cs",
               "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\Features\\ListarProdutos\\ListarProdutosQueryHandler.cs",
               "RelativeToolTip": "EstoqueApi\\Features\\ListarProdutos\\ListarProdutosQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T22:44:32.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\Program.cs",
+              "RelativeDocumentMoniker": "EstoqueApi\\Program.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\Program.cs",
+              "RelativeToolTip": "EstoqueApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T22:20:54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoTest.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\ProdutoTest.cs",
+              "RelativeDocumentMoniker": "UnitTest\\ProdutoTest.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\ProdutoTest.cs",
+              "RelativeToolTip": "UnitTest\\ProdutoTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T23:03:46.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitTest",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\UnitTest.csproj",
+              "RelativeDocumentMoniker": "UnitTest\\UnitTest.csproj",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\UnitTest.csproj",
+              "RelativeToolTip": "UnitTest\\UnitTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T23:03:37.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ListarProdutosQuery.cs",
               "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\Features\\ListarProdutos\\ListarProdutosQuery.cs",
               "RelativeDocumentMoniker": "EstoqueApi\\Features\\ListarProdutos\\ListarProdutosQuery.cs",
@@ -64,33 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\Program.cs",
-              "RelativeDocumentMoniker": "EstoqueApi\\Program.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\EstoqueApi\\Program.cs*",
-              "RelativeToolTip": "EstoqueApi\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T22:20:54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "UnitTest\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\UnitTest1.cs",
-              "RelativeToolTip": "UnitTest\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T22:20:47.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AdicionarLogErroCommand.cs",
               "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\Features\\AdicionarLogErro\\AdicionarLogErroCommand.cs",
               "RelativeDocumentMoniker": "Features\\AdicionarLogErro\\AdicionarLogErroCommand.cs",
@@ -99,17 +164,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T21:44:49.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutoTest.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\ProdutoTest.cs",
-              "RelativeDocumentMoniker": "UnitTest\\ProdutoTest.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Projeto\\EstoqueAPI\\UnitTest\\ProdutoTest.cs",
-              "RelativeToolTip": "UnitTest\\ProdutoTest.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T21:30:53.026Z"
             }
           ]
         }

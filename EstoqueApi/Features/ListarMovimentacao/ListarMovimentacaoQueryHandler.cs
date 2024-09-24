@@ -2,14 +2,15 @@
 using EstoqueApi.Repositories;
 using MediatR;
 using EstoqueApi.Models;
+using EstoqueApi.Interfaces;
 
 namespace EstoqueApi.Features
 {
     public class ListarMovimentacaoQueryHandler : IRequestHandler<ListarMovimentacaoQuery, MovimentacaoViewModel>
     {
-        private readonly MovimentacaoEstoqueRepository _movimentacaoRepository;
+        private readonly IMovimentacaoEstoqueRepository _movimentacaoRepository;
 
-        public ListarMovimentacaoQueryHandler(MovimentacaoEstoqueRepository movimentacaoRepository)
+        public ListarMovimentacaoQueryHandler(IMovimentacaoEstoqueRepository movimentacaoRepository)
         {
             _movimentacaoRepository = movimentacaoRepository;
         }
