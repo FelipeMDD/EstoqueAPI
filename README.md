@@ -1,4 +1,6 @@
-Dados do banco de dados, armazenado no site freesqldatabase.com
++++++++++++++++++++++++++++++++++++++++++++++++BASE DE DADOS DESATIVADA+++++++++++++++++++++++++++++++++++++++++++++++
+
+Dados do banco de dados, armazenado no site freesqldatabase.com 
 
 CREATE TABLE Produto (
     ProdutoID INT AUTO_INCREMENT PRIMARY KEY,
